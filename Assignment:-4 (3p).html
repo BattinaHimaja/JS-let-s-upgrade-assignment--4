@@ -1,0 +1,40 @@
+<!--Generated from HTML Code Play-->
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+function gradex(){
+var b=parseInt(prompt("Enter your marks ","marks"));
+document.write((b >= 80) ?  ` marks are ${b} Your grade is A ` :  ((b >= 50) && (b < 80))  ?  ` marks are ${b} Your grade is B `  :  ((b < 50) && (b >= 30)) ?  ` marks are ${b} Your grade is C ` : ` marks are ${b} Better luck next time`);
+}
+function grade(){
+var a=Number(prompt("Enter your marks ","marks"));
+if(a >= 80){
+document.write(`marks are ${a} your grade is A`);
+}
+else if((a >= 50) &&  (a < 80)){
+document.write(`marks are ${a} your grade is B`);
+}
+else if((a < 50) &&  (a >= 30)){
+document.write(`marks are ${a} your grade is C`);
+}
+else{
+document.write(`marks are ${a} better luck next time`);
+}
+}
+</script>
+
+</head>
+
+<body>
+
+<button type="button" onclick="grade();"><font size="500" color="blue">click me to know your grade using conditional if else </font></button>
+<button type="button" onclick="gradex()"><font size="500" color="blue">click me to know your grade using ternary operator </font></button>
+</body>
+
+</html>
+<!--Generated from HTML Code Play.
+ More application
+ Android Code Play
+ SQL Code Play-->
